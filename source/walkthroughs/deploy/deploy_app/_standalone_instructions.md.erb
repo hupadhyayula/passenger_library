@@ -30,7 +30,7 @@ Since this is a production environment, we need to customize Passenger a little 
 <% else -%>
   code directory
 <% end -%>
-and create a file named `Passengerfile.json`:
+and create a file named `Passenger.json`:
 
 <pre class="highlight"><span class="prompt">$ </span>cd /var/www/<span class="o">myapp</span>/<%= app_dirname %>
 <% if needs_login_as_app_user_to_prepare_environment?(locals) %>
